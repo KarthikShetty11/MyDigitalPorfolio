@@ -63,6 +63,7 @@ hr {
     color: white;
     padding: 1rem;
     border-bottom-left-radius: 2rem;
+    border-top-right-radius: 2rem;
 }
 
 .navigation .link {
@@ -109,13 +110,20 @@ hr {
 
 /* footers */
 
+
+
 .footer{
     background-color: var(--primary-color);
     padding: 2rem 2rem;
     text-align: center;
     color: white;
-    border-top-right-radius: 1rem;
-    border-bottom-left-radius: 1rem;
+    border-top-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+}
+
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
 }
 
 .footer .link{
